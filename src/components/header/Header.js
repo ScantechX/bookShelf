@@ -1,22 +1,18 @@
-import $ from 'jquery';
-import { template } from 'lodash';
-import './header.css'
+import { template } from "lodash";
+import $ from "jquery";
 
-export class Header{
-    render(){
-        $('body').prepend(template(`
-      <div class="header section">
-      <div class="container">
+import "./header.css";
+
+export class Header {
+  render() {
+    return template(`
+ 
+      <div class="header-section">
+      <div class="header-container">
          <h1 class="title">Книжная полка</h1>
-         <div class="btn-add">Добавить книгу</div>
-      
+         <button class="btn-add">Добавить книгу</button>
       </div>
-      
       </div>
-      `))
-
-        
-        
-    }
+      `)();
+  }
 }
-

@@ -1,0 +1,16 @@
+.modal {
+  display: none;
+}
+
+.modal.opened {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  display: block;
+  background-color: white;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

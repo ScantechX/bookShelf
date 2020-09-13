@@ -1,51 +1,58 @@
-
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #DEDEDE;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #dedede;
 }
 
-.section{
-    display: flex;
-    justify-content: center;
-}
-.header{
-   
-   font-family: Arial;
-   
-    
-
+.header-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
 }
 
-.container{
-    width: 80%;
-    margin: 0;
-    padding: 0;
-
+.header-container {
+  width: 80%;
+  margin: 0;
+  padding: 0;
 }
 
-.title{
-    font-size: 40px;
-    
-   
+.title {
+  font-size: 40px;
 }
-
-
 
 .btn-add {
-    color: #fff;
-    text-decoration: none; 
-    user-select: none; 
-    background: gray;
-    padding: .7em 1.5em;
-    max-width: 10%;
-    text-align: center;
-    margin-top: 3vh;
-    border: 3px solid black;
-   
+  color: #fff;
+  text-decoration: none;
+  user-select: none;
+  background: gray;
+  padding: 0.7em 1.5em;
+  max-width: 10%;
+  text-align: center;
+  margin-top: 3vh;
+  border: 3px solid black;
 }
 
-.btn-add:hover { background: rgb(250, 74, 51); } 
-.btn-add:active { background: rgb(152,15,0); } 
+.btn-add:hover {
+  background: rgb(250, 74, 51);
+}
+.btn-add:active {
+  background: rgb(152, 15, 0);
+}
 
+.modal {
+  display: none;
+}
+
+.modal.opened {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  display: block;
+  background-color: white;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

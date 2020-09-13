@@ -1,0 +1,27 @@
+.bookshelf-item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.bookshelf-item-info{
+    display: flex;
+    align-items: center;
+}
+
+.author, .date{
+    display: block;
+}
+
+.author{
+    margin-bottom: 15px;
+}
+
+.bookshelf-item-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-primary.delete{
+    margin-bottom: 15px;
+}

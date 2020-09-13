@@ -1,9 +1,20 @@
 @font-face {
-    font-family: "Roboto";
-    src: url("./fonts/Roboto-Black.ttf") format("ttf"),
-           
-   }
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Medium.ttf") format("ttf");
+}
+
 body {
-background-color: aquamarine;
-font-family: 'Roboto';
-};
+  background-color: aquamarine;
+  font-family: "Roboto";
+}
+
+body.withBackdrop {
+  background-color: silver;
+  opacity: 0.5;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  object-fit: contain;
+}
